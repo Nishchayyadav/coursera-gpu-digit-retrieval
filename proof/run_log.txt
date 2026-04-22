@@ -1,0 +1,14 @@
+GPU Digit Retrieval Run Log
+========================================
+Device: Tesla T4
+GPU enabled: True
+Query count: 300
+Gallery count: 1497
+Top-1 accuracy: 0.983333
+Top-5 accuracy: 1.000000
+Elapsed seconds: 0.002217
+Queries/second: 135304.51
+Dataset: sklearn.datasets.load_digits
+Similarity: Cosine (GPU matrix multiply)
+Output image: /kaggle/working/proof-2/retrieval_samples.png
+Output CSV: /kaggle/working/proof-2/retrieval_results.csv

@@ -1,0 +1,25 @@
+Project-2 Installation Instructions
+===================================
+
+Overview
+--------
+This project performs GPU-based image retrieval on the sklearn digits dataset
+using PyTorch CUDA tensor operations.
+
+Linux / Kaggle (Recommended for final proof)
+-------------------------------------------
+1) Ensure Python 3.10+ is available.
+2) Install dependencies:
+   pip install -r requirements.txt
+3) Run:
+   python3 src/run_retrieval_gpu.py --output-dir proof --max-images 1797 --query-count 300 --top-k 5 --batch-size 128 --seed 42
+
+Local Debug (No GPU)
+--------------------
+You may run CPU-only for debugging:
+   python3 src/run_retrieval_gpu.py --allow-cpu --output-dir proof
+
+Important
+---------
+CPU debugging runs are not valid as final assignment proof.
+Final proof artifacts should be produced in a GPU-enabled environment.
