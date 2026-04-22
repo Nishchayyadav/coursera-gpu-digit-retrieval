@@ -1,4 +1,4 @@
-# Project-2: GPU Digit Image Retrieval (Capstone)
+# Coursera GPU Specialization Capstone Project: GPU Digit Image Retrieval
 
 ## Project Goal
 This project demonstrates a practical GPU application: **image retrieval**.
